@@ -2,5 +2,7 @@
 name = "base67"
 version = "0.1.0"
 edition = "2024"
+description = "A base67 encoding/decoding library for Rust"
+license = "MIT"
 
 [dependencies]
