@@ -60,8 +60,8 @@ mod tests {
     fn test_known_values() {
         assert_eq!(encode(b"foo"), "WVgA");
         assert_eq!(encode(&[0, 0, 0]), "AAAA");
-        assert_eq!(encode(b"Rust"), "R|4ABx==");
-        assert_eq!(encode(b"Hello world"), "Pz+SXqDwaBsnGMK=");
+        assert_eq!(encode(b"Rust"), "R.4ABx==");
+        assert_eq!(encode(b"Hello world"), "Pz-SXqDwaBsnGMK=");
     }
 
     #[test]

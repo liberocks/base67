@@ -2,4 +2,4 @@
 /// Contains uppercase letters (A-Z), lowercase letters (a-z), digits (0-9),
 /// and special characters (+, /, |, \, -).
 pub const ALPHABET: &[u8; 67] =
-    b"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/|\\-";
+    b"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-_.!~";
