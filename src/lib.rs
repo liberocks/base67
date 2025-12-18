@@ -1,8 +1,8 @@
 //! # Base67 Encoding Library
 //!
-//! This library provides base67 encoding and decoding functionality, similar to base64
-//! but using a 67-character alphabet. Base67 encoding converts binary data into a text
-//! representation using 67 printable ASCII characters.
+//! This library provides base67 encoding and decoding functionality using a 67-character
+//! alphabet. Base67 encoding converts binary data into a text representation using 67
+//! printable ASCII characters.
 //!
 //! The encoding scheme processes input bytes in chunks of 3 bytes (24 bits) and converts
 //! them into 4 base67 characters. Padding with '=' is used when the input length is not

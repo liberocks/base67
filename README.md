@@ -6,7 +6,7 @@
 [![Contributors](https://img.shields.io/github/contributors/liberocks/base67)](https://github.com/liberocks/base67/graphs/contributors)
 [![License](https://img.shields.io/github/license/liberocks/base67)](./LICENSE)
 
-Base67 is a base64-like encoding scheme that uses a 67-character alphabet.
+Base67 is an encoding scheme that uses a 67-character alphabet to convert binary data into text representation.
 
 ### Usage
 
