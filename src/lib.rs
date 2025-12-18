@@ -62,6 +62,10 @@ mod tests {
         assert_eq!(encode(&[0, 0, 0]), "AAAA");
         assert_eq!(encode(b"Rust"), "R.4ABx==");
         assert_eq!(encode(b"Hello world"), "Pz-SXqDwaBsnGMK=");
+        assert_eq!(encode("六と七".as_bytes()), "yA4_xmcTx4KC");
+        assert_eq!(encode("六和七".as_bytes()), "yA4_yBnIx4KC");
+        assert_eq!(encode("ستة وسبعة".as_bytes()), "vOublPPOHKm_vOubk1CKMX4=");
+        assert_eq!(encode("여섯과 일곱".as_bytes()), "zlEyzj~NzJftHLs5pLC3Cr==");
     }
 
     #[test]
